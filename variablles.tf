@@ -10,5 +10,5 @@ variable "instance_type" {
 
 #It is mandatory, user should supply
 variable "security_group_id" {
-    #default = ["sg-0d5cc2e8109a1c1bd"]
+    default = ["sg-0d5cc2e8109a1c1bd"]
 }
