@@ -4,7 +4,7 @@ variable "ami_id" {
 }
 
 #It is optional, it will take default as t3.micro. User can override
-#You can restrict the other instance_type by using below condition. It will prevent the mistakes.
+#You can restrict the other instance_type by using below condition. You can restrict the users.
 variable "instance_type" {
     default = "t3.micro"
     type = string
